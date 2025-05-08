@@ -1,0 +1,56 @@
+file:
+  version: 1.0
+demo:
+  info:
+    type: <application | blueprint | cloud_console | guided_doc | ...>
+    title: <string>
+    thumbnail_summary: <string>
+    # A summary of the demo's intention. Markdown supported.
+    purpose: <string>
+    # A summary of the demo's business value. Markdown supported.
+    business_value: <string>
+    # A summary of the demo's technical value. Markdown supported.
+    technical_value: <string>
+  attribution: 
+    owner: <username | Gaia ID>
+    team_owner: <team name | Team Moma ID>
+    contributors:
+      - <username | Gaia ID>
+      - ...
+    channel: <channel ID>
+  assets:
+    # List the links to image URLs that will be displayed on the demo.
+    # - The first image is used as the demo's thumbnail.
+    # - You may only choose up to 10 images.
+    # - Images must have a format of PNG or JPG.
+    images:
+      - <link>
+  
+    # Provide the link to your demo automation folder on go/demos GOB repo.
+    # See go/demo-automation-guide for more information.
+    click_to_deploy_path: <click-to-deploy path>
+
+    #  A link to instructions on how to use the demo.
+    demo_guide: <link>
+
+    # Additional assets for the demo.
+    additional:
+      - type: blueprint | code_repository | ...
+        name: <string>
+        link: <link>
+        # Designates an asset as the demo's key asset.
+        # This asset will be featured as a button on the top of the demo's page.
+        is_key_asset: <true | false>
+        # Features a supporting video.
+        # This video will be embedded in its own section on the demo's page.
+        is_featured_video: <true | false>
+  meta:
+    industries:
+      - <industry name>
+    solutions:
+      - <solution name>
+    products:
+      - <product name>
+    tags:
+      - <string>
+    content_restriction_label: <restricted | not_anonymized>
