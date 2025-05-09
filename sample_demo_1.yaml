@@ -1,0 +1,81 @@
+file:
+  version: 1.0
+demo:
+  info:
+    type: application
+    title: Gen AI for Marketing
+    thumbnail_summary: Generate creative content for multi-channel marketing
+    
+    # A summary of the demo's intention. Markdown supported.
+    purpose: |
+      Deliver personalized marketing content to target audiences fast and at low cost with generative AI. See how Generative AI accelerates creative workflows by rapidly generating images and text for advertisements, social media, website content, emails, and more.
+
+      Use the [external deck](https://docs.google.com/presentation/d/1sVmhQyk4IDbCvNHLOUtM75ZhZivFfjSyneyFG3kucZw/edit#slide=id.g280ae831c30_3_2) with the [talk track](https://docs.google.com/document/d/12lBI8mY55SlZ1lPZwvUxTZWNAG-ym8ekDOewKpwrMIw/edit?tab) to walk through the live demo.
+
+      In addition, for a preview of upcoming partner integration features showcased at Generate 2024, see the following video and talk track:
+
+      go/genai-back-office-marketing-video
+      go/genai-back-office-marketing-talk-track
+
+      First shown as "Transform content creation and prototyping with Gen AI" at the Bayview 06/2023.
+
+      Join the Google Group [g/genai-for-marketing-solution-announce](http://g/genai-for-marketing-solution-announce) for announcements & updates.
+    
+    # A summary of the demo's business value. Markdown supported.
+    business_value: |
+      Show the impact of generative AI in analytics, creating, and collaboration use cases for marketing personas, with a live demonstration of common areas of productivity increases such as campaign brief generation, segmentation exploration, and iteration on creative assets.
+
+      Join the Google Group [g/genai-for-marketing-solution-announce](http://g/genai-for-marketing-solution-announce) for announcements and updates.
+    
+    # A summary of the demo's technical value. Markdown supported.
+    technical_value: |
+      Generative AI for Marketing showcases several products. Imagen enables you to generate, edit, and caption images with simple text prompts. Gemini API for text enables you to generate content in just a few sentences, customizing it on your data. Get started quickly with our prompt templates. Vertex AI Search and Conversation is used for internal search and question answering for campaign improvement.
+
+      Download the [stable release](https://github.com/GoogleCloudPlatform/genai-for-marketing/releases) from github to get started on your own version. Follow the 
+      [installation video](https://drive.google.com/file/d/1xQEd7xf_HIDc5P40MNHRSZZHbhWy0BAe/view) to learn more.
+ 
+  attribution: 
+    owner: nykolas
+    contributors:
+      - plichtaw
+      - akioolvera
+  
+  assets:
+    # List the links to image URLs that will be displayed on the demo.
+    # - The first image is used as the demo's thumbnail.
+    # - You may only choose up to 10 images.
+    # - Images must have a format of PNG or JPG.
+    images:
+      - https://s3.amazonaws.com/nykolas.me/logo-nykolas.png
+      - https://s3.amazonaws.com/nykolas.me/logo-confundo.png
+      - https://s3.amazonaws.com/nykolas.me/logo-1a.png
+  
+    # Provide the link to your demo automation folder on go/demos GOB repo.
+    # See go/demo-automation-guide for more information.
+    # click_to_deploy_path: <click-to-deploy path>
+
+    #  A link to instructions on how to use the demo.
+    demo_guide: https://s3.amazonaws.com/nykolas.me/Nykolas+Farhangi+Resume.pdf
+
+    # Additional assets for the demo.
+    # additional:
+    #   - type: blueprint | code_repository | ...
+    #     name: <string>
+    #     link: <link>
+    #     # Designates an asset as the demo's key asset.
+    #     # This asset will be featured as a button on the top of the demo's page.
+    #     is_key_asset: <true | false>
+    #     # Features a supporting video.
+    #     # This video will be embedded in its own section on the demo's page.
+    #     is_featured_video: <true | false>
+  
+  # meta:
+  #   industries:
+  #     - <industry name>
+  #   solutions:
+  #     - <solution name>
+  #   products:
+  #     - <product name>
+  #   tags:
+  #     - <string>
+  #   content_restriction_label: <restricted | not_anonymized>
