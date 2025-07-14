@@ -16,11 +16,11 @@ file_type: demo
 #    presentation
 #    prototype
 #    video
-type: <[Demo Type]>
+type: application
 
 
 # The name of the demo.
-title: Sample Title
+title: Rocket Demo
 
 
 # A short description of the demo.
@@ -46,28 +46,28 @@ technical_value: Sample text
 
 # The Googler who owns this demo. This user has edit access to the demo,
 # is the point of contact for the demo, and is responsible for maintaining the demo.
-owner: <Google Username (without @google.com) [string]>
+owner: nykolas
 
 
 # [Optional] The Moma Team ID that owns this demo.
 # Displayed as an owner of the demo for attribution.
 # Moma Teams IDs can be found in the Team Page URL.
 # Example: https://moma.corp.google.com/team/1234 --> ID = 1234
-team_owner: <Team Moma ID [integer]>
+team_owner: 2040279160758
 
 
 # [Optional] Googlers and Moma Teams that contributed to this demo.
 # Contributors are listed on the demo page for attribution.
-contributors:
- - <Google Username (without @google.com) [string]>
- - <Team Moma ID [integer]>
+# contributors:
+#  - <Google Username (without @google.com) [string]>
+#  - <Team Moma ID [integer]>
 
 
 # [Optional] Specify a channel ID to add this demo to a channel.
 # The owner of the demo must be a member of the channel.
 # Channel IDs can be found in the Channel Page URL.
 # Example: https://cloud-demo-hub.corp.google.com/channels/123 --> ID = 123
-channel_id: <Channel ID [integer]>
+channel_id: 1
 
 
 
@@ -80,22 +80,24 @@ channel_id: <Channel ID [integer]>
 # You may only choose up to 10 images.
 # Images must have a format of PNG or JPG.
 images:
- - <URL [string]>
+ - https://s3.amazonaws.com/nykolas.me/logo-nykolas.png
+ - https://s3.amazonaws.com/nykolas.me/logo-confundo.png
+ - https://s3.amazonaws.com/nykolas.me/logo-1a.png
 
 
 # [Optional] Provide the link to your demo automation folder on go/demos GOB repo.
 # See go/demo-automation-guide for more information.
-click_to_deploy_path: <Click-To-Deploy Path [string]>
+click_to_deploy_path: sample/path
 
 
 #  A link to instructions on how to use the demo.
-demo_guide: <URL [string]>
+demo_guide: https://s3.amazonaws.com/nykolas.me/Nykolas+Farhangi+Resume.pdf
 
 
 # [Optional] Assets belonging to the demo, such as a website, video, code repository, etc.
 artifacts:
    # Title of the artifact. Must be unique.
- - title: Artifact Title
+ - title: Source
 
 
    # Artifact Type. Supported Options:
@@ -108,18 +110,18 @@ artifacts:
    #    other_unspecified
    #    slide_deck
    #    video
-   type: <[Artifact Type]>
+   type: code_repository
 
 
    # Direct URL to the artifact.
-   link: <URL [string]>
+   link: https://github.com/crudemandarin/sample
 
 
 # [Optional] Designate an asset as the demo's key asset.
 #
 # This asset will be featured as a button on the top of the demo's page.
 # Artifact Title must match to one of the artifacts listed in `artifacts`.
-featured_artifact_title: <Artifact Title>
+featured_artifact_title: Source
 
 
 # [Optional] Feature a supporting video. This video will be
@@ -127,7 +129,7 @@ featured_artifact_title: <Artifact Title>
 #
 # Artifact Title must match to one of the artifacts listed in `artifacts`.
 # Artifact URL must be a YouTube, Drive, Broadcast, or Screencast link.
-featured_video_artifact_title: <Artifact Title>
+# featured_video_artifact_title: <Artifact Title>
 
 
 
@@ -152,17 +154,17 @@ featured_video_artifact_title: <Artifact Title>
 #    consumer_packaged_goods
 #    supply_chain
 industries:
- - <[Industry Name]>
+ - all
 
 
-# Products featured by the demo.
-products:
- - <[Product ID]>
+# # Products featured by the demo.
+# products:
+#  - <[Product ID]>
 
 
-# Additional tags to support demo discoverability.
-tags:
- - <[string]>
+# # Additional tags to support demo discoverability.
+# tags:
+#  - <[string]>
 
 
 # Add restriction labels if one or more of these options are applicable.
@@ -172,4 +174,5 @@ tags:
 #    not_anonymized   Contains info or data of specific customer.
 #                     MUST anonymize before sharing or presenting to customer.
 content_restriction_labels:
- - <[Restriction Label]>
+ - restricted
+ - not_anonymized
