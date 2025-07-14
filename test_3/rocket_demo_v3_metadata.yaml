@@ -163,8 +163,9 @@ industries:
 
 
 # # Additional tags to support demo discoverability.
-# tags:
-#  - <[string]>
+tags:
+ - rocket
+ - demo
 
 
 # Add restriction labels if one or more of these options are applicable.
