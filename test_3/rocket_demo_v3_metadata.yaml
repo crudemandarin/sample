@@ -28,7 +28,7 @@ thumbnail_summary: Lorem ipsum dolor sit amet, consectetur ...
 
 
 # [Optional] A summary of the demo's intention. Markdown supported.
-purpose: Lorem ipsum dolor sit amet, consectetur ...
+purpose: Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur 
 
 
 # [Optional] A summary of the demo's business value. Markdown supported.
@@ -158,8 +158,9 @@ industries:
 
 
 # # Products featured by the demo.
-# products:
-#  - <[Product ID]>
+products:
+ - 2
+ - 10
 
 
 # # Additional tags to support demo discoverability.
