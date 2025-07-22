@@ -38,9 +38,11 @@ business_value: This demo has a long summary to see how its rendered on the demo
 
 
 # [Optional] A summary of the demo's technical value. Markdown supported.
-technical_value: This demo has a long summary to see how its rendered on the demo page. It's useful to have demos with long sample text.
+technical_value: |
+  This demo has a long summary to see how its rendered on the demo page. It's useful to have demos with long sample text.
+  
+  This demo has a long summary to see how its rendered on the demo page. It's useful to have demos with long sample text. This demo has a long summary to see how its rendered on the demo page. It's useful to have demos with long sample text.
 
-This demo has a long summary to see how its rendered on the demo page. It's useful to have demos with long sample text. This demo has a long summary to see how its rendered on the demo page. It's useful to have demos with long sample text.
 
 
 
