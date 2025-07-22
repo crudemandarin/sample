@@ -20,11 +20,11 @@ type: application
 
 
 # The name of the demo.
-title: Rocket Demo 3456
+title: Rocket Demo v123
 
 
 # A short description of the demo.
-thumbnail_summary: Lorem ipsum dolor sit amet, consectetur ...
+thumbnail_summary: Brand new Rocket Demo text! Woo!
 
 
 # [Optional] A summary of the demo's intention. Markdown supported.
