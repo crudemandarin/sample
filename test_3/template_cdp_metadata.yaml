@@ -89,7 +89,7 @@ click_to_deploy_path: <Click-To-Deploy Path [string]>
 
 
 #  A link to instructions on how to use the demo.
-demo_guide: <URL [string]>
+demo_guide: google.com
 
 
 # [Optional] Assets belonging to the demo, such as a website, video, code repository, etc.
