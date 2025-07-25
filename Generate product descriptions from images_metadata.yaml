@@ -1,0 +1,180 @@
+
+# File Info
+
+
+file_type: demo
+
+
+# Demo Info
+
+
+# The type of demo.
+# Supported options:
+#    application
+#    blueprint
+#    cloud_console
+#    guided_doc
+#    presentation
+#    prototype
+#    video
+type: application
+
+
+# The name of the demo.
+title: Generate product descriptions from images
+
+
+# A short description of the demo.
+thumbnail_summary: Generative AI tool for generating Product Descriptions from an Image
+
+
+
+# [Optional] A summary of the demo's intention. Markdown supported.
+purpose: The purpose of this demo is to generate Product Description from the given Image with the help of attributes extracted from the Image itself along with some custom attributes provided by the customer.
+
+
+# [Optional] A summary of the demo's business value. Markdown supported.
+business_value: |
+  Description : With a product image as an input, identify what product it is, then generate the description of product followed by a structured output of details of the product ( such as ingredients or composition of product)
+  
+  As a content moderator, I would like to improve the quality of information present in my ecommerce catalog.
+  As a seller on ecommerce website I want assistance in uploading product information.
+
+
+
+# [Optional] A summary of the demo's technical value. Markdown supported.
+technical_value: |
+  Vertex AI offering to be used : Product recognizer API + Gen AI Studio
+  
+  Experiment approach:
+  Experiments in colab notebook will be performed using Product recognizer API followed by Gen AI Studio APIs ( ‘Object classification‘ + ‘Extract and organize’ )
+  The experiment approaches Zero shot, one shot , few shot , PET , prompt tuning approaches will be used and final recommendation with be provided
+  
+  Input given : image that need to be processed + set of instructions to be performed on image
+  
+  Output expected : product description , structured output of product details
+
+
+
+
+
+# Demo Attribution
+
+
+# The Googler who owns this demo. This user has edit access to the demo,
+# is the point of contact for the demo, and is responsible for maintaining the demo.
+owner: vijaykumardk
+
+
+# [Optional] The Moma Team ID that owns this demo.
+# Displayed as an owner of the demo for attribution.
+# Moma Teams IDs can be found in the Team Page URL.
+# Example: https://moma.corp.google.com/team/1234 --> ID = 1234
+team_owner: 1775545955201
+
+
+# [Optional] Googlers and Moma Teams that contributed to this demo.
+# Contributors are listed on the demo page for attribution.
+# contributors:
+
+
+# [Optional] Specify a channel ID to add this demo to a channel.
+# The owner of the demo must be a member of the channel.
+# Channel IDs can be found in the Channel Page URL.
+# Example: https://cloud-demo-hub.corp.google.com/channels/123 --> ID = 123
+# channel_id:
+
+
+
+
+# Demo Assets
+
+
+# [Optional] List URLs to images that will be displayed on the demo.
+# The first image is used as the demo's thumbnail.
+# You may only choose up to 10 images.
+# Images must have a format of PNG or JPG.
+images:
+  - https://storage.cloud.google.com/demo-hub-images/1700396539.png
+
+
+# [Optional] Provide the link to your demo automation folder on go/demos GOB repo.
+# See go/demo-automation-guide for more information.
+# click_to_deploy_path:
+
+
+
+#  A link to instructions on how to use the demo.
+demo_guide: https://docs.google.com/document/d/1eNT_JaV9p7sAF9iqnULWgIwCcgU564yQsLHrdYnN5q4/edit?tab=t.0#heading=h.xzptrog8pyxf
+
+
+# [Optional] Assets belonging to the demo, such as a website, video, code repository, etc.
+artifacts:
+- title: Colab Notebook : Generate product description from images
+  type: other_unspecified
+  link: https://colab.research.google.com/drive/1YDAbZ7BJJPo2Tq8J_shmaBTdWbJ2u7Q7?resourcekey=0-Hfpu3XCo5RhwCSNUGNtrJQ&usp=share_link
+- title: Key Asset
+  type: live_application
+  link: https://genai-experiments.googleplex.com/demo/create/product-descriptions-from-an-image-2e0992fd1ea3
+
+
+# [Optional] Designate an asset as the demo's key asset.
+#
+# This asset will be featured as a button on the top of the demo's page.
+# Artifact Title must match to one of the artifacts listed in `artifacts`.
+featured_artifact_title: Key Asset
+
+
+# [Optional] Feature a supporting video. This video will be
+# embedded in its own section on the demo's page.
+#
+# Artifact Title must match to one of the artifacts listed in `artifacts`.
+# Artifact URL must be a YouTube, Drive, Broadcast, or Screencast link.
+# featured_video_artifact_title:
+
+
+
+
+# Demo Metadata
+# For industries, and products, IDs can be found at <URL>.
+
+
+# Relevant industries.
+# Supported options:
+#    all
+#    retail
+#    healthcare_life_services
+#    financial_services
+#    telecommunications
+#    media_entertainment
+#    public_sector_government
+#    public_sector
+#    manufacturing
+#    education
+#    gaming
+#    consumer_packaged_goods
+#    supply_chain
+industries:
+  - 1
+
+
+# Products featured by the demo.
+products:
+  - 257
+  - 165
+  - 32
+
+
+# Additional tags to support demo discoverability.
+tags:
+  - accelerate23
+
+
+# Add restriction labels if one or more of these options are applicable.
+# Supported options:
+#    restricted       Data may be confidential. Present and share to customer
+#                     at your own discretion under NDA or other applicable restrictions.
+#    not_anonymized   Contains info or data of specific customer.
+#                     MUST anonymize before sharing or presenting to customer.
+content_restriction_labels:
+  - external

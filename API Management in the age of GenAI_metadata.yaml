@@ -1,0 +1,169 @@
+
+# File Info
+
+
+file_type: demo
+
+
+# Demo Info
+
+
+# The type of demo.
+# Supported options:
+#    application
+#    blueprint
+#    cloud_console
+#    guided_doc
+#    presentation
+#    prototype
+#    video
+type: application
+
+
+# The name of the demo.
+title: API Management in the age of GenAI
+
+
+# A short description of the demo.
+thumbnail_summary: We demonstrate how GenAI Agents are going to boost demand for APIs, and show how Apigee and Application Integration use GenAI to boost productivity
+
+
+
+# [Optional] A summary of the demo's intention. Markdown supported.
+purpose: We demonstrate how GenAI Agents are going to boost demand for APIs, and show how Apigee and Application Integration use GenAI to boost productivity
+
+
+# [Optional] A summary of the demo's business value. Markdown supported.
+business_value: This demo shows an end result and value of API management and application integration in a way which is easy to understand by a business user.
+
+
+# [Optional] A summary of the demo's technical value. Markdown supported.
+technical_value: |
+  We showcase how GenAI Agents can use APIs as tools to expand their capabilities.
+  APIs of course imply API management and some code/integrations to do the actual work. We showcase how Apigee and Application Integration can be used to quickly deploy a simple API.
+
+
+
+
+
+# Demo Attribution
+
+
+# The Googler who owns this demo. This user has edit access to the demo,
+# is the point of contact for the demo, and is responsible for maintaining the demo.
+owner: mochahary
+
+
+# [Optional] The Moma Team ID that owns this demo.
+# Displayed as an owner of the demo for attribution.
+# Moma Teams IDs can be found in the Team Page URL.
+# Example: https://moma.corp.google.com/team/1234 --> ID = 1234
+# team_owner:
+
+
+# [Optional] Googlers and Moma Teams that contributed to this demo.
+# Contributors are listed on the demo page for attribution.
+# contributors:
+
+
+# [Optional] Specify a channel ID to add this demo to a channel.
+# The owner of the demo must be a member of the channel.
+# Channel IDs can be found in the Channel Page URL.
+# Example: https://cloud-demo-hub.corp.google.com/channels/123 --> ID = 123
+# channel_id:
+
+
+
+
+# Demo Assets
+
+
+# [Optional] List URLs to images that will be displayed on the demo.
+# The first image is used as the demo's thumbnail.
+# You may only choose up to 10 images.
+# Images must have a format of PNG or JPG.
+images:
+  - https://storage.cloud.google.com/demo-hub-images/1700207168.png
+  - https://storage.cloud.google.com/demo-hub-images/1700207250.png
+  - https://storage.cloud.google.com/demo-hub-images/1700207257.png
+  - https://storage.cloud.google.com/demo-hub-images/1700207266.png
+
+
+# [Optional] Provide the link to your demo automation folder on go/demos GOB repo.
+# See go/demo-automation-guide for more information.
+# click_to_deploy_path:
+
+
+
+#  A link to instructions on how to use the demo.
+demo_guide: https://docs.google.com/document/d/1xY77uZ25IB0zVy68a7ZKntsr3LTSxd_NEoqUCUoT4pk/edit?usp=sharing&resourcekey=0-8VJmHov9FP32aq79gzCjRA
+
+
+# [Optional] Assets belonging to the demo, such as a website, video, code repository, etc.
+artifacts:
+- title: Key Asset
+  type: other_unspecified
+  link: https://drive.google.com/file/d/1LmHadE5OvwMcsEMXOvf_SBOwZ3SCIYLrf/view
+- title: Video
+  type: video
+  link: https://drive.google.com/file/d/1LmHadE5OvwMcEMXOvf_SBOwZ3SCIYLrf/view
+
+
+# [Optional] Designate an asset as the demo's key asset.
+#
+# This asset will be featured as a button on the top of the demo's page.
+# Artifact Title must match to one of the artifacts listed in `artifacts`.
+featured_artifact_title: Key Asset
+
+
+# [Optional] Feature a supporting video. This video will be
+# embedded in its own section on the demo's page.
+#
+# Artifact Title must match to one of the artifacts listed in `artifacts`.
+# Artifact URL must be a YouTube, Drive, Broadcast, or Screencast link.
+featured_video_artifact_title: Video
+
+
+
+
+# Demo Metadata
+# For industries, and products, IDs can be found at <URL>.
+
+
+# Relevant industries.
+# Supported options:
+#    all
+#    retail
+#    healthcare_life_services
+#    financial_services
+#    telecommunications
+#    media_entertainment
+#    public_sector_government
+#    public_sector
+#    manufacturing
+#    education
+#    gaming
+#    consumer_packaged_goods
+#    supply_chain
+# industries:
+
+
+# Products featured by the demo.
+products:
+  - 367
+  - 95
+  - 8
+
+
+# Additional tags to support demo discoverability.
+# tags:
+
+
+# Add restriction labels if one or more of these options are applicable.
+# Supported options:
+#    restricted       Data may be confidential. Present and share to customer
+#                     at your own discretion under NDA or other applicable restrictions.
+#    not_anonymized   Contains info or data of specific customer.
+#                     MUST anonymize before sharing or presenting to customer.
+content_restriction_labels:
+  - external
