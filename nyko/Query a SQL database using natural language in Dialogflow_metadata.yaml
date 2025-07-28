@@ -48,7 +48,7 @@ purpose: This demo shows one way to build a human-to-SQL interface where the hum
 
 # The Googler who owns this demo. This user has edit access to the demo,
 # is the point of contact for the demo, and is responsible for maintaining the demo.
-owner: aiestaran
+owner: nykolas
 
 
 # [Optional] The Moma Team ID that owns this demo.
