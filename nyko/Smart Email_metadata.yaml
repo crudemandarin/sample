@@ -60,7 +60,8 @@ team_owner: 1724061634019
 
 # [Optional] Googlers and Moma Teams that contributed to this demo.
 # Contributors are listed on the demo page for attribution.
-# contributors:
+contributors:
+ - billybobby
 
 
 # [Optional] Specify a channel ID to add this demo to a channel.
