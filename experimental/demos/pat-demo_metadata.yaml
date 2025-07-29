@@ -20,7 +20,7 @@ type: application
 
 
 # The name of the demo.
-title: Pat Demo
+title: My Favorite Pat Demo
 
 
 # A short description of the demo.
@@ -67,7 +67,7 @@ team_owner: 2040279160758
 # The owner of the demo must be a member of the channel.
 # Channel IDs can be found in the Channel Page URL.
 # Example: https://cloud-demo-hub.corp.google.com/channels/123 --> ID = 123
-channel_id: 114
+channel_id: 21
 
 
 
